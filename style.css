@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster&family=Mochiy+Pop+P+One&family=Zen+Kurenaido&display=swap');
+body{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background-color: lightpink;
+}
+div{
+    border-radius: 30px;
+    margin: 50px;
+}
+img{
+    height: 225px;
+    width: 150px;
+}
+.sizechange{
+    height: 150px;
+}
+table{
+    margin: auto;
+    background-color: rgb(255, 122, 142);
+    border-radius: 5px;
+}
+td{
+    padding: 20px;
+    border: 2px solid rgb(206, 19, 75);
+    font-size: larger;
+    border-radius: 5px;
+}
+.change{
+    color: #9c27b0;
+}
+.change::after{
+    content: "";
+    animation: change 15s linear infinite;
+}
+@keyframes change{
+    0%{
+        content: "Glamorize";
+        color: rgb(88, 0, 160);
+    }
+    30%{
+        content: "Enhance";
+        color: rgb(255, 58, 222);
+    }
+    60%{
+        content: "Beautify";
+        color: rgb(255, 17, 128);
+    }
+    100%{
+        content: "Romanticize";
+        color: rgb(243, 105, 50);
+    }
+}
+.button{
+    cursor: pointer;
+    background-color: rgb(184, 0, 184);
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    margin: auto;
+}
+#mobile,#address{
+    border: 2px solid purple;
+    background-color: rgb(255, 210, 247);
+    height: 20px;
+    width: auto;
+    border-radius: 7px;
+}
+p{
+    font-size: larger;
+}
+tr:hover{
+    background-color: rgb(255, 88, 116);
+}
